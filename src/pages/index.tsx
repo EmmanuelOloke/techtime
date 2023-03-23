@@ -12,7 +12,8 @@ export default function Home() {
       </Head>
 
       <Box>
-        <Text>This is where it all starts</Text>
+        <Text>This is where it all starts ordinary.</Text>
+        <Text fontFamily="Clash Display">This is where it all starts</Text>
       </Box>
     </>
   );
