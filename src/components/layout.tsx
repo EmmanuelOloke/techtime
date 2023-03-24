@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <Box
-      height="100vh"
+      height="833px"
       width="100vw"
       background="#004DB3"
       backgroundImage={{
