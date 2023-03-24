@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'Satoshi Bold';
+  src: url('/fonts/Satoshi-Variable.woff2') format('truetype');
+}
+
+@font-face {
   font-family: 'Clash Display';
   src: url('/fonts/ClashDisplay-Bold.woff2') format('truetype');
 }
