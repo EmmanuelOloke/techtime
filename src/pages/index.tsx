@@ -1,6 +1,9 @@
 import Head from 'next/head';
-import { Flex } from '@chakra-ui/react';
+import { Flex, HStack, Image } from '@chakra-ui/react';
 import Hero from '@/components/Hero';
+import Companies from '@/components/Companies';
+import HighQualitySection from '@/components/HighQualitySection';
+import WhyWeAreBest from '@/components/WhyWeAreBest';
 
 export default function Home() {
   return (
@@ -14,7 +17,11 @@ export default function Home() {
 
       <Hero />
 
-      <Flex>somrthing here</Flex>
+      <Companies />
+
+      <HighQualitySection />
+
+      <WhyWeAreBest />
     </>
   );
 }
