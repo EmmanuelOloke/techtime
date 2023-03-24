@@ -27,6 +27,7 @@ const NavBar = () => {
       justifyContent="center"
       background="transparent"
       paddingTop={5}
+      position="absolute"
     >
       <HStack
         w={{ base: '100%', sm: '100%', md: '100%', lg: '83%', xl: '83%', '2xl': '60%' }}
