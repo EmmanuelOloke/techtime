@@ -1,7 +1,15 @@
 import Head from 'next/head';
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Flex, HStack, Image, Text, VStack } from '@chakra-ui/react';
+import GetStartedButton from '@/components/GetStartedButton';
+import PrimaryButtonWhite from '@/components/PrimaryButtonWhite';
+import Avatars from '@/components/Avatars';
+import { PrimaryButton } from '@/types/primary-button';
 
 export default function Home() {
+  const props: PrimaryButton = {
+    text: 'Enroll Now',
+    link: '#',
+  };
   return (
     <>
       <Head>
@@ -11,10 +19,141 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box>
-        <Text>This is where it all starts ordinary.</Text>
-        <Text fontFamily="Clash Display">This is where it all starts</Text>
-      </Box>
+      <Flex flexDirection="column" alignItems="center">
+        <VStack alignItems="center" gap="8px" marginTop="26px">
+          <Text
+            fontFamily="Clash Display"
+            color="#FFFFFF"
+            fontSize="32px"
+            textAlign="center"
+            lineHeight="45.78px"
+          >
+            Grow your skills to advance your career path
+          </Text>
+
+          <Text
+            fontFamily="Satoshi"
+            color="#FFFFFF"
+            fontSize="10px"
+            textAlign="center"
+            lineHeight="15px"
+            textTransform="capitalize"
+            width="360px"
+          >
+            build your future with our quality education. the best and largest all-in-one online
+            tutoring platform in the world
+          </Text>
+
+          <HStack gap="13.4px">
+            <GetStartedButton />
+
+            <PrimaryButtonWhite {...props} />
+          </HStack>
+
+          <Flex gap="4.47px">
+            <Avatars />
+
+            <Flex flexDirection="column" textAlign="center">
+              <Text fontFamily="Clash Display" fontSize="13.4px" color="#FFFFFF">
+                255k+
+              </Text>
+              <Text fontFamily="Satoshi" color="#FFFFFF" fontSize="8px">
+                Previews
+              </Text>
+            </Flex>
+          </Flex>
+        </VStack>
+
+        <Flex>
+          <Image
+            src="/assets/vectors/zigzag.svg"
+            alt="zigzag vector"
+            position="absolute"
+            left="0"
+            top="390px"
+          />
+          <Image
+            src="/assets/vectors/loopy-line.svg"
+            alt="loopyline vector"
+            position="absolute"
+            left="310px"
+            top="322px"
+          />
+        </Flex>
+
+        <Flex position="absolute" top="430px" width="395px">
+          <Image
+            src="/assets/hero-image.png"
+            alt="hero image"
+            width="320px"
+            position="absolute"
+            left="32.69px"
+          />
+
+          <Image
+            src="/assets/lightbulb.png"
+            alt="lightbulb image"
+            width="90px"
+            transform="rotate(-33.25deg)"
+            position="absolute"
+            top="32px"
+            left="20px"
+          />
+
+          <Image
+            src="/assets/vscode.jpeg"
+            alt="vscode image"
+            borderRadius="4px"
+            width="48px"
+            position="absolute"
+            top="40px"
+            left="310px"
+          />
+
+          <Image
+            src="/assets/vectors/green-circle.svg"
+            alt="green circle"
+            position="absolute"
+            top="133px"
+            left="58px"
+          />
+
+          <Image
+            src="/assets/vectors/gold-triangle.svg"
+            alt="gold triangle"
+            position="absolute"
+            top="150px"
+            left="330px"
+          />
+
+          <Image
+            src="/assets/figma.png"
+            alt="figma image"
+            width="48px"
+            position="absolute"
+            top="230px"
+            left="18px"
+          />
+
+          <Image
+            src="/assets/vectors/yellow-dot.svg"
+            alt="yellow dot"
+            width="4px"
+            position="absolute"
+            top="354px"
+            left="63px"
+          />
+
+          <Image
+            src="/assets/wordpress.png"
+            alt="wordpress logo"
+            width="48px"
+            position="absolute"
+            top="345px"
+            left="300px"
+          />
+        </Flex>
+      </Flex>
     </>
   );
 }
