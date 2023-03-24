@@ -2,13 +2,21 @@ import React from 'react';
 import { Box, Flex, VStack, Text, HStack, Image } from '@chakra-ui/react';
 import Avatars from './Avatars';
 import GetStartedButton from './GetStartedButton';
-import PrimaryButtonWhite from './PrimaryButtonWhite';
-import { PrimaryButton } from '@/types/primary-button';
+import PrimaryButton from './PrimaryButton';
+import { PrimaryButtonType } from '@/types/primary-button';
+import { AvatarWidth } from '@/types/avatar-width';
 
 const Hero = () => {
-  const props: PrimaryButton = {
+  const primaryButtonProps: PrimaryButtonType = {
     text: 'Enroll Now',
     link: '#',
+    color: '#004DB3',
+    bgColor: 'white',
+  };
+
+  const avatarProps: AvatarWidth = {
+    width: '32px',
+    height: '32px',
   };
   return (
     <Box
@@ -16,12 +24,12 @@ const Hero = () => {
       width="100vw"
       background="#004DB3"
       backgroundImage={{
-        base: '/assets/Minimal-Pattern-1-D-mobile.svg',
-        sm: '/assets/Minimal-Pattern-1-D-mobile.svg',
-        md: '/assets/Minimal-Pattern-1-D-mobile.svg',
-        lg: '/assets/Minimal-Pattern-1-D-desktop.svg',
-        xl: '/assets/Minimal-Pattern-1-D-desktop.svg',
-        '2xl': '/assets/Minimal-Pattern-1-D-desktop.svg',
+        base: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        sm: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        md: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        lg: '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
+        xl: '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
+        '2xl': '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
       }}
       backgroundSize="cover"
     >
@@ -53,11 +61,11 @@ const Hero = () => {
           <HStack gap="13.4px">
             <GetStartedButton />
 
-            <PrimaryButtonWhite {...props} />
+            <PrimaryButton {...primaryButtonProps} />
           </HStack>
 
           <Flex gap="4.47px">
-            <Avatars />
+            <Avatars {...avatarProps} />
 
             <Flex flexDirection="column" textAlign="center">
               <Text fontFamily="Clash Display" fontSize="13.4px" color="#FFFFFF">
@@ -89,7 +97,7 @@ const Hero = () => {
 
         <Flex position="absolute" top="344px" width="395px">
           <Image
-            src="/assets/hero-image.png"
+            src="/assets/images/hero-image.png"
             alt="hero image"
             width="320px"
             position="absolute"
