@@ -44,7 +44,7 @@ const NavBar = () => {
       >
         <Box>
           <Link href="http://localhost:3000" _hover={{ textDecoration: 'none' }}>
-            <Image src="/assets/techtime.svg" alt="tech time logo" width="5rem" />
+            <Image src="/assets/techtime.svg" alt="tech time logo" width="53px" />
           </Link>
         </Box>
 
@@ -139,7 +139,7 @@ const NavBar = () => {
               '2xl': 'none',
             }}
           >
-            <HamburgerIcon boxSize={8} color="white" />
+            <HamburgerIcon boxSize={8} color="white" width="18px" />
           </Box>
         </HStack>
       </HStack>
