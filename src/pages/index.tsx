@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import Companies from '@/components/Companies';
 import HighQualitySection from '@/components/HighQualitySection';
 import WhyWeAreBest from '@/components/WhyWeAreBest';
+import BrowseCourses from '@/components/BrowseCourses';
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
       <HighQualitySection />
 
       <WhyWeAreBest />
+
+      <BrowseCourses />
     </>
   );
 }
