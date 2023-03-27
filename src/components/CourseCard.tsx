@@ -1,8 +1,14 @@
 import React from 'react';
 import { Avatar, Box, Flex, Image, Text } from '@chakra-ui/react';
 
-const CourseCard = () => {
-  return (
+import { Course } from '@/types/course';
+
+interface Props {
+  courses: Array<Course>;
+}
+
+const CourseCard: React.FC<Props> = ({ courses }) => {
+  const eachCourse = courses.map((course) => (
     <Flex
       flexDirection="column"
       gap="16px"
@@ -11,12 +17,13 @@ const CourseCard = () => {
       height="234px"
       borderRadius="4px"
       padding="16px 8px"
+      key={course.id}
     >
       <Flex flexDirection="column" gap="8px">
         <Flex flexDirection="column" gap="4px">
           <Image
-            src="/assets/images/woman-stickynotes.jpeg"
-            alt="woman pointing to sticky notes on a white board"
+            src={course.courseImageUrl}
+            alt={course.title}
             width="176.82px"
             borderRadius="2px"
           />
@@ -31,19 +38,19 @@ const CourseCard = () => {
               fontWeight="bold"
               fontSize="4px"
             >
-              Design
+              {course.category}
             </Box>
 
             <Flex gap="3.22px" alignItems="center">
               <Flex justifyContent="center" alignItems="center">
                 <Text fontFamily="Satoshi Bold" fontWeight="bold" fontSize="4px" color="#A1A1A1">
-                  4.7k
+                  {course.rating}k
                 </Text>
                 <Image src="/assets/vectors/star.svg" alt="star icon" />
               </Flex>
 
               <Text fontFamily="Satoshi Bold" fontWeight="bold" fontSize="4px" color="#A1A1A1">
-                (32.7k+)
+                ({course.numberOfStudents}k+)
               </Text>
             </Flex>
           </Flex>
@@ -51,21 +58,21 @@ const CourseCard = () => {
 
         <Flex flexDirection="column" gap="4px">
           <Text width="155.47px" fontFamily="Clash Display" fontSize="8px" lineHeight="10.8px">
-            Introduction to user research in UX Design
+            {course.title}
           </Text>
 
           <Flex justifyContent="space-between">
             <Flex gap="4px" alignItems="center">
               <Image src="/assets/vectors/schedule.svg" alt="schedule icon" />
               <Text fontFamily="Satoshi" color="#A1A1A1" fontSize="4px">
-                23hrs 50mins
+                {course.duration}
               </Text>
             </Flex>
 
             <Flex gap="4px" alignItems="center">
               <Image src="/assets/vectors/menu-book.svg" alt="menu book icon" />
               <Text fontFamily="Satoshi" color="#A1A1A1" fontSize="4px">
-                15 Lessons
+                {course.numberOfLessons} Lessons
               </Text>
             </Flex>
           </Flex>
@@ -74,18 +81,20 @@ const CourseCard = () => {
 
       <Flex alignItems="center" justifyContent="space-between">
         <Flex gap="3.22px" alignItems="center">
-          <Avatar src="assets/images/leonard-victor.png" name="Leonard Victor" size="2xs" />
+          <Avatar src={course.tutorAvatarUrl} name={course.tutorName} size="2xs" />
           <Text fontFamily="Satoshi Bold" fontWeight="bold" fontSize="6px">
-            Leonard Victor
+            {course.tutorName}
           </Text>
         </Flex>
 
         <Text fontFamily="Clash Display" fontSize="8px" color="#004DB3">
-          $15.00
+          ${course.price.toFixed(2)}
         </Text>
       </Flex>
     </Flex>
-  );
+  ));
+
+  return <>{eachCourse}</>;
 };
 
 export default CourseCard;
