@@ -4,6 +4,8 @@ import CourseCard from './CourseCard';
 import { PrimaryButtonType } from '@/types/primary-button';
 import PrimaryButton from './PrimaryButton';
 
+import { courses } from '../../public/data/courseData';
+
 const BrowseCourses = () => {
   const primaryButtonProps: PrimaryButtonType = {
     text: 'View Courses',
@@ -81,12 +83,7 @@ const BrowseCourses = () => {
       </Flex>
 
       <Flex flexWrap="wrap" justifyContent="center" gap="8px" position="absolute" top="179px">
-        <CourseCard />
-        <CourseCard />
-        <CourseCard />
-        <CourseCard />
-        <CourseCard />
-        <CourseCard />
+        <CourseCard courses={courses} />
       </Flex>
 
       <Box position="absolute" top="921px">
