@@ -12,6 +12,7 @@ const Hero = () => {
     link: '#',
     color: '#004DB3',
     bgColor: 'white',
+    width: '73px',
   };
 
   const avatarProps: AvatarWidth = {
@@ -24,12 +25,12 @@ const Hero = () => {
       width="100vw"
       background="#004DB3"
       backgroundImage={{
-        base: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
-        sm: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
-        md: '/assets/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
-        lg: '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
-        xl: '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
-        '2xl': '/assets/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
+        base: '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        sm: '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        md: '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-mobile.svg',
+        lg: '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
+        xl: '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
+        '2xl': '/assets/patterns/hero-patterns/Minimal-Pattern-1-D-desktop.svg',
       }}
       backgroundSize="cover"
     >
