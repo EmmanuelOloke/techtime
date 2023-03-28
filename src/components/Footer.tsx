@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Button,
-  Flex,
-  Image,
-  Input,
-  InputGroup,
-  InputRightElement,
-  Link,
-  Text,
-  VStack,
-} from '@chakra-ui/react';
+import { Button, Flex, Image, Input, Link, Text, VStack } from '@chakra-ui/react';
 
 const Footer = () => {
   return (
