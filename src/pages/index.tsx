@@ -8,6 +8,7 @@ import BrowseCourses from '@/components/BrowseCourses';
 import ClientsFeedback from '@/components/ClientsFeedback';
 import ReadyToConnect from '@/components/ReadyToConnect';
 import FAQ from '@/components/FAQ';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <ReadyToConnect />
 
       <FAQ />
+
+      <Footer />
     </>
   );
 }
