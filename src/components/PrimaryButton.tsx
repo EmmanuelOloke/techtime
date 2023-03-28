@@ -2,7 +2,15 @@ import React from 'react';
 import { Button, Link } from '@chakra-ui/react';
 import { PrimaryButtonType } from '@/types/primary-button';
 
-const PrimaryButton: React.FC<PrimaryButtonType> = ({ text, link, color, bgColor, width }) => {
+const PrimaryButton: React.FC<PrimaryButtonType> = ({
+  text,
+  link,
+  color,
+  bgColor,
+  width,
+  height,
+  fontSize,
+}) => {
   return (
     <Link href={link} textDecoration="none" _hover={{ textDecoration: 'none' }}>
       <Button
@@ -11,8 +19,8 @@ const PrimaryButton: React.FC<PrimaryButtonType> = ({ text, link, color, bgColor
         borderRadius="2.2px"
         padding="8px 16px"
         width={width}
-        height="27px"
-        fontSize="8px"
+        height={height}
+        fontSize={fontSize}
         _hover={{ opacity: '0.9' }}
       >
         {text}

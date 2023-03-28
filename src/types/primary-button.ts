@@ -4,4 +4,6 @@ export type PrimaryButtonType = {
   color: string;
   bgColor: string;
   width: string;
+  height: string;
+  fontSize: string;
 };

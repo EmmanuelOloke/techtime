@@ -15,10 +15,22 @@ import {
   Image,
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import { PrimaryButtonType } from '@/types/primary-button';
+import PrimaryButton from './PrimaryButton';
 
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navRef = useRef(null);
+
+  const primaryButtonProps: PrimaryButtonType = {
+    text: 'Enroll Now',
+    link: '#',
+    color: '#004DB3',
+    bgColor: 'white',
+    width: '145px',
+    height: '54px',
+    fontSize: '1rem',
+  };
 
   return (
     <Box
@@ -44,14 +56,25 @@ const NavBar = () => {
         justifyContent="space-between"
       >
         <Box>
-          <Link href="http://localhost:3000" _hover={{ textDecoration: 'none' }}>
-            <Image src="/assets/techtime.svg" alt="tech time logo" width="53px" />
+          <Link href="#" _hover={{ textDecoration: 'none' }}>
+            <Image
+              src="/assets/techtime.svg"
+              alt="tech time logo"
+              width={{
+                base: '53px',
+                sm: '53px',
+                md: '53px',
+                lg: '130px',
+                xl: '130px',
+                '2xl': '130px',
+              }}
+            />
           </Link>
         </Box>
 
         <HStack gap={5}>
           <Link
-            href="/login"
+            href="#"
             _hover={{ textDecoration: 'none' }}
             display={{
               base: 'none',
@@ -62,22 +85,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text
-              fontSize="1rem"
-              fontWeight="bold"
-              transition="all .4s"
-              _hover={{
-                color: '#3A66DB',
-                borderBottom: '2px solid #3A66DB',
-                marginBottom: '-2px',
-              }}
-            >
-              Log In
+            <Text fontFamily="Satoshi Bold" fontSize="1rem" fontWeight="bold" color="white">
+              Home
             </Text>
           </Link>
 
           <Link
-            href="/signup"
+            href="#"
             _hover={{ textDecoration: 'none' }}
             display={{
               base: 'none',
@@ -88,22 +102,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text
-              fontSize="1rem"
-              fontWeight="bold"
-              transition="all .4s"
-              _hover={{
-                color: '#3A66DB',
-                borderBottom: '2px solid #3A66DB',
-                marginBottom: '-2px',
-              }}
-            >
-              Sign Up
+            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+              About Us
             </Text>
           </Link>
 
           <Link
-            href="http://localhost:3000"
+            href="#"
             _hover={{ textDecoration: 'none' }}
             display={{
               base: 'none',
@@ -114,19 +119,57 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text
-              fontSize="1rem"
-              fontWeight="bold"
-              transition="all .4s"
-              _hover={{
-                color: '#3A66DB',
-                borderBottom: '2px solid #3A66DB',
-                marginBottom: '-2px',
-              }}
-            >
-              How it works
+            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+              Courses
             </Text>
           </Link>
+
+          <Link
+            href="#"
+            _hover={{ textDecoration: 'none' }}
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'flex',
+              xl: 'flex',
+              '2xl': 'flex',
+            }}
+          >
+            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+              Testimonial
+            </Text>
+          </Link>
+
+          <Link
+            href="#"
+            _hover={{ textDecoration: 'none' }}
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'flex',
+              xl: 'flex',
+              '2xl': 'flex',
+            }}
+          >
+            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+              Community
+            </Text>
+          </Link>
+
+          <Box
+            display={{
+              base: 'none',
+              sm: 'none',
+              md: 'none',
+              lg: 'flex',
+              xl: 'flex',
+              '2xl': 'flex',
+            }}
+          >
+            <PrimaryButton {...primaryButtonProps} />
+          </Box>
 
           <Box
             ref={navRef}
@@ -154,77 +197,65 @@ const NavBar = () => {
       >
         <DrawerOverlay />
 
-        <DrawerContent>
+        <DrawerContent background="#004DB3">
           <Box>
             <DrawerHeader>
-              <Text
-                fontWeight="extrabold"
-                fontSize={{
-                  base: '1.5rem',
-                  sm: '1.5rem',
-                  md: '1.5rem',
-                  lg: '2rem',
-                  xl: '2rem',
-                  '2xl': '2rem',
+              <Image
+                src="/assets/techtime.svg"
+                alt="tech time logo"
+                width={{
+                  base: '75px',
+                  sm: '75px',
+                  md: '75px',
+                  lg: '130px',
+                  xl: '130px',
+                  '2xl': '130px',
                 }}
-                color="#3A66DB"
-              >
-                Artisans
-              </Text>
+                marginTop="5px"
+              />
             </DrawerHeader>
 
             <DrawerCloseButton
               fontSize="1.2rem"
               marginTop={2.5}
-              color="#292F2E"
+              color="#FFFFFF"
               fontWeight="bold"
             />
           </Box>
 
           <DrawerBody display="flex" justifyContent="center" alignItems="center">
             <VStack spacing="24px">
-              <Link href="/login" _hover={{ textDecoration: 'none' }}>
-                <Text
-                  fontSize="1.5rem"
-                  fontWeight="bold"
-                  transition="all .4s"
-                  _hover={{
-                    color: '#3A66DB',
-                    borderBottom: '2px solid #3A66DB',
-                    marginBottom: '-2px',
-                  }}
-                >
-                  Log In
+              <Link href="#" _hover={{ textDecoration: 'none' }}>
+                <Text fontFamily="Satoshi Bold" fontSize="1rem" fontWeight="bold" color="white">
+                  Home
                 </Text>
               </Link>
-              <Link href="/signup" _hover={{ textDecoration: 'none' }}>
-                <Text
-                  fontSize="1.5rem"
-                  fontWeight="bold"
-                  transition="all .4s"
-                  _hover={{
-                    color: '#3A66DB',
-                    borderBottom: '2px solid #3A66DB',
-                    marginBottom: '-2px',
-                  }}
-                >
-                  Sign Up
+
+              <Link href="#" _hover={{ textDecoration: 'none' }}>
+                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                  About Us
                 </Text>
               </Link>
-              <Link href="/" _hover={{ textDecoration: 'none' }}>
-                <Text
-                  fontSize="1.5rem"
-                  fontWeight="bold"
-                  transition="all .4s"
-                  _hover={{
-                    color: '#3A66DB',
-                    borderBottom: '2px solid #3A66DB',
-                    marginBottom: '-2px',
-                  }}
-                >
-                  How it works
+
+              <Link href="#" _hover={{ textDecoration: 'none' }}>
+                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                  Courses
                 </Text>
               </Link>
+
+              <Link href="#" _hover={{ textDecoration: 'underline' }}>
+                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                  Testimonial
+                </Text>
+              </Link>
+
+              <Link href="#" _hover={{ textDecoration: 'none' }}>
+                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                  Community
+                </Text>
+              </Link>
+
+              <PrimaryButton {...primaryButtonProps} />
             </VStack>
           </DrawerBody>
         </DrawerContent>
