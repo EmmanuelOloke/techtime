@@ -12,6 +12,7 @@ const BrowseCourses = () => {
     link: '#',
     color: 'white',
     bgColor: '#004DB3',
+    width: '83px',
   };
   return (
     <VStack background="#F8F9FC" height="980px" position="relative">
