@@ -675,53 +675,41 @@ const HighQualitySection = () => {
         </Box>
       </Flex>
 
-      <Box
+      <Image
         display={{ base: 'flex', sm: 'flex', md: 'flex', lg: 'none', xl: 'none', '2xl': 'none' }}
-      >
-        <Image
-          src="/assets/vectors/green-zigzag.svg"
-          alt="green zigzag"
-          position="absolute"
-          top={{ base: '200px', sm: '200px', md: '200px', lg: '30px', xl: '30px', '2xl': '30px' }}
-          right="0"
-        />
-      </Box>
+        src="/assets/vectors/green-zigzag.svg"
+        alt="green zigzag"
+        position="absolute"
+        top={{ base: '200px', sm: '200px', md: '200px', lg: '30px', xl: '30px', '2xl': '30px' }}
+        right="0"
+      />
 
-      <Box
+      <Image
         display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
-      >
-        <Image
-          src="/assets/vectors/green-zigzag-desktop.svg"
-          alt="green zigzag"
-          position="absolute"
-          top={{ base: '225px', sm: '225px', md: '225px', lg: '30px', xl: '30px', '2xl': '30px' }}
-          right="0"
-        />
-      </Box>
+        src="/assets/vectors/green-zigzag-desktop.svg"
+        alt="green zigzag"
+        position="absolute"
+        top={{ base: '225px', sm: '225px', md: '225px', lg: '30px', xl: '30px', '2xl': '30px' }}
+        right="0"
+      />
 
-      <Box
+      <Image
         display={{ base: 'flex', sm: 'flex', md: 'flex', lg: 'none', xl: 'none', '2xl': 'none' }}
-      >
-        <Image
-          src="/assets/vectors/light-purple-half-circle.svg"
-          alt="purple half circle"
-          position="absolute"
-          top="350px"
-          right="0"
-        />
-      </Box>
+        src="/assets/vectors/light-purple-half-circle.svg"
+        alt="purple half circle"
+        position="absolute"
+        top="350px"
+        right="0"
+      />
 
-      <Box
+      <Image
         display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
-      >
-        <Image
-          src="/assets/vectors/light-purple-half-circle-desktop.svg"
-          alt="purple half circle"
-          position="absolute"
-          top="350px"
-          right="0"
-        />
-      </Box>
+        src="/assets/vectors/light-purple-half-circle-desktop.svg"
+        alt="purple half circle"
+        position="absolute"
+        top="350px"
+        right="0"
+      />
     </Flex>
   );
 };
