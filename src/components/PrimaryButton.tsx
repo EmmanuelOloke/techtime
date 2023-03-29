@@ -16,7 +16,14 @@ const PrimaryButton: React.FC<PrimaryButtonType> = ({
       <Button
         color={color}
         backgroundColor={bgColor}
-        borderRadius="2.2px"
+        borderRadius={{
+          base: '2.2px',
+          sm: '2.2px',
+          md: '2.2px',
+          lg: '4px',
+          xl: '4px',
+          '2xl': '4px',
+        }}
         padding="8px 16px"
         width={width}
         height={height}
