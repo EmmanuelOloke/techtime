@@ -3,7 +3,7 @@ export const courses = [
     id: 1,
     title: 'Introduction to user research in UX Design',
     courseImageUrl: '/assets/images/woman-stickynotes.jpeg',
-    category: 'Desgin',
+    category: 'Design',
     rating: 4.7,
     numberOfStudents: 32.7,
     duration: '23hrs 50mins',
@@ -27,7 +27,7 @@ export const courses = [
   },
   {
     id: 3,
-    title: 'Introduction to HTML, CSS and bootstrap',
+    title: 'Introduction to HTML, CSS & bootstrap',
     courseImageUrl: '/assets/images/co-working.jpeg',
     category: 'Development',
     rating: 4.7,
@@ -40,7 +40,7 @@ export const courses = [
   },
   {
     id: 4,
-    title: 'Introduction to Javascript, Git and Github',
+    title: 'Introduction to Javascript, Git & Github',
     courseImageUrl: '/assets/images/coding-react.jpeg',
     category: 'Development',
     rating: 4.7,
