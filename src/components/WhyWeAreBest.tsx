@@ -439,7 +439,7 @@ const WhyWeAreBest = () => {
         position="absolute"
         width={{ lg: '4.6rem', xl: '4.6rem', '2xl': '4.6rem' }}
         top={{ lg: '2.5rem', xl: '2.5rem', '2xl': '2.5rem' }}
-        right={{ lg: '18rem', xl: '18rem', '2xl': '18rem' }}
+        right={{ lg: '18rem', xl: '18rem', '2xl': '32rem' }}
       />
 
       <Image
@@ -449,7 +449,7 @@ const WhyWeAreBest = () => {
         position="absolute"
         width={{ lg: '0.5rem', xl: '0.5rem', '2xl': '0.5rem' }}
         top={{ lg: '2.5rem', xl: '2.5rem', '2xl': '2.5rem' }}
-        left={{ lg: '22rem', xl: '22rem', '2xl': '22rem' }}
+        left={{ lg: '22rem', xl: '22rem', '2xl': '38rem' }}
       />
     </Flex>
   );
