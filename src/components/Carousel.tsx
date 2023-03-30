@@ -19,7 +19,7 @@ const Carousel = () => {
     <HStack spacing={4} overflowX="auto" flexShrink={0} justifyContent="center">
       <Splide aria-label="Client Feedbacks" options={splideOptions}>
         {feedbacks.map((feedback) => (
-          <SplideSlide>
+          <SplideSlide key={feedback.id}>
             <VStack
               background="#FFFFFF"
               borderRadius={{
@@ -49,7 +49,6 @@ const Carousel = () => {
                 xl: '17.5rem',
                 '2xl': '17.5rem',
               }}
-              key={feedback.id}
             >
               <Text
                 color="#A1A1A1"
