@@ -1,0 +1,7 @@
+.splide__pagination__page.is-active {
+    background-color: #004DB3 !important;
+}
+
+.splide {
+    width: 100vw;
+}
