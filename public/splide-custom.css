@@ -1,3 +1,13 @@
+.splide {
+    height: 15rem;
+}
+
+@media screen and (min-width: 768px) {
+    .splide {
+        height: 20rem;
+    }
+}
+
 .splide__pagination__page {
     background-color: #CCDBF0 !important;
 }

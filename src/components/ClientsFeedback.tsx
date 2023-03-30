@@ -7,9 +7,9 @@ const ClientsFeedback = () => {
     <VStack
       background="#F8F9FC"
       height={{
-        base: '25.125rem',
-        sm: '25.125rem',
-        md: '25.125rem',
+        base: '26.125rem',
+        sm: '26.125rem',
+        md: '26.125rem',
         lg: '35.438rem',
         xl: '35.438rem',
         '2xl': '35.438rem',
