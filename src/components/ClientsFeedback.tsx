@@ -4,8 +4,29 @@ import Carousel from './Carousel';
 
 const ClientsFeedback = () => {
   return (
-    <VStack background="#F8F9FC" height="full" width="full" overflow="hidden">
-      <VStack gap="3.1px" marginTop="32px">
+    <VStack
+      background="#F8F9FC"
+      height={{
+        base: '25.125rem',
+        sm: '25.125rem',
+        md: '25.125rem',
+        lg: '35.438rem',
+        xl: '35.438rem',
+        '2xl': '35.438rem',
+      }}
+      gap={{
+        base: '1.5rem',
+        sm: '1.5rem',
+        md: '1.5rem',
+        lg: '2.5rem',
+        xl: '2.5rem',
+        '2xl': '2.5rem',
+      }}
+    >
+      <VStack
+        gap={{ base: '0rem', sm: '0rem', md: '0rem', lg: '1rem', xl: '1rem', '2xl': '1rem' }}
+        marginTop="32px"
+      >
         <Text
           textTransform="capitalize"
           fontFamily="Clash Display"
@@ -57,7 +78,7 @@ const ClientsFeedback = () => {
         </Text>
       </VStack>
 
-      {/* <Carousel /> */}
+      <Carousel />
     </VStack>
   );
 };
