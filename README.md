@@ -1,38 +1,51 @@
+# Tech Time Design Implementation with Dockerization
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Built using:
+
+| Name                    | Version | Website/Documentation                          |
+| ----------------------- | ------- | ---------------------------------------------- |
+| ReactJS                 | 18.2.0  | https://react.dev/                             |
+| Chakra-UI               | 2.5.3   | https://www.chakra-ui.com                      |
+| TypeScript              | 4.9.5   | https://www.typescriptlang.org/docs/           |
+| Next.js                 | 13.2.4  | https://nextjs.org/docs/getting-started        |
+| SplideJS (React Splide) | 0.7.12  | https://splidejs.com/integration/react-splide/ |
 
 ## Getting Started
 
-First, run the development server:
+Quite a challenging design but I had a lot of fun building this project.
+
+You can run this project the traditional way or using Docker. Find below the commands needed for both:
+
+## To run manually:
+
+Once you've cloned the repo to your local machine, run the following commands:
 
 ```bash
+# cd into the project directory.
+cd project-name
+# run npm install (npm i) to install all needed dependencies.
+npm i
+# run npm run dev to start the local development server and view the project.
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## To run using Docker
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+After cloning the project and you have docker installed and setup on your machine. Run the following command:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+# cd into the project directory.
+cd project-name
+# build the docker image
+docker build -t tech-time
+# run the container based on the image built
+docker run -p 3000:3000 --name image-name tech-time
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The `docker build -t tech-time` command builds a Docker image from the configuration specified within the Dockerfile in the root directory of the project. And tags the Docker image with the name `tech-time`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The `docker run -p 3000:3000 --name image-name tech-time` command runs/publishes a new Docker container on the `tech-time` image and maps port 3000 inside the container to port 3000 on the host system. The name for the container on the host system is specified with `--name image-name` flag, this can be whatever name you want to give to the container on your system.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+After running all this, this application should now be live on port 3000 on your machine.
