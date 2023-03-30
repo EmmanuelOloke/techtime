@@ -9,7 +9,14 @@ const ClientsFeedback = () => {
         <Text
           textTransform="capitalize"
           fontFamily="Clash Display"
-          fontSize="24px"
+          fontSize={{
+            base: '1.5rem',
+            sm: '1.5rem',
+            md: '1.5rem',
+            lg: '3.5rem',
+            xl: '3.5rem',
+            '2xl': '3.5rem',
+          }}
           lineHeight="29.52px"
         >
           what our clients are saying
@@ -18,10 +25,31 @@ const ClientsFeedback = () => {
         <Text
           color="#A1A1A1"
           fontFamily="Satoshi"
-          fontSize="8px"
-          lineHeight="16px"
+          fontSize={{
+            base: '0.5rem',
+            sm: '0.5rem',
+            md: '0.5rem',
+            lg: '1rem',
+            xl: '1rem',
+            '2xl': '1rem',
+          }}
+          lineHeight={{
+            base: '1rem',
+            sm: '1rem',
+            md: '1rem',
+            lg: '1.75rem',
+            xl: '1.75rem',
+            '2xl': '1.75rem',
+          }}
           textAlign="center"
-          width="288.12px"
+          width={{
+            base: '19.008rem',
+            sm: '19.008rem',
+            md: '19.008rem',
+            lg: '43.438rem',
+            xl: '43.438rem',
+            '2xl': '43.438rem',
+          }}
           textTransform="capitalize"
         >
           high-defination video is video of higher resolution and quality than standard definition.
