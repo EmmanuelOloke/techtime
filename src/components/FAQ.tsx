@@ -73,14 +73,38 @@ const FAQ = () => {
         src="/assets/vectors/faq-oval.svg"
         alt="blue oval"
         position="absolute"
-        top="27.92px"
-        left="396px"
+        top={{
+          base: '1.745rem',
+          sm: '1.745rem',
+          md: '1.745rem',
+          lg: '4rem',
+          xl: '4rem',
+          '2xl': '4rem',
+        }}
+        left={{
+          base: '24.75rem',
+          sm: '24.75rem',
+          md: '24.75rem',
+          lg: '80.688rem',
+          xl: '80.688rem',
+          '2xl': '100.688rem',
+        }}
+        width={{ lg: '1.625rem', xl: '1.625rem', '2xl': '1.625rem' }}
       />
       <Image
+        display={{ base: 'flex', sm: 'flex', md: 'flex', lg: 'none', xl: 'none', '2xl': 'none' }}
         src="/assets/vectors/faq-zigzag.svg"
         alt="yellow zigzag"
         position="absolute"
-        top="122.69px"
+        top="7.668rem"
+        left="0"
+      />
+      <Image
+        display={{ base: 'none', sm: 'none', md: 'none', lg: 'flex', xl: 'flex', '2xl': 'flex' }}
+        src="/assets/vectors/yellow-zigzag.svg"
+        alt="yellow zigzag"
+        position="absolute"
+        top="13.668rem"
         left="0"
       />
     </VStack>
