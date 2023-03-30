@@ -3,6 +3,8 @@ import type { AppProps } from 'next/app';
 import { ChakraProvider } from '@chakra-ui/react';
 import Layout from '@/components/layout';
 
+import '../../public/splide-custom.css';
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
