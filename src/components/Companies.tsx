@@ -5,44 +5,93 @@ const Companies = () => {
   return (
     <Flex
       background="#CCDBF0"
-      height={{ base: '60px', sm: '60px', md: '60px', lg: '158px', xl: '158px', '2xl': '158px' }}
+      height={{
+        base: '3.75rem',
+        sm: '3.75rem',
+        md: '3.75rem',
+        lg: '9.875rem',
+        xl: '9.875rem',
+        '2xl': '9.875rem',
+      }}
       justifyContent="center"
       alignItems="center"
     >
       <HStack
-        height={{ base: '16px', sm: '16px', md: '16px', lg: '54px', xl: '54px', '2xl': '54px' }}
+        height={{
+          base: '1rem',
+          sm: '1rem',
+          md: '1rem',
+          lg: '3.375rem',
+          xl: '3.375rem',
+          '2xl': '3.375rem',
+        }}
         gap={{
-          base: '12.66px',
-          sm: '12.66px',
-          md: '12.66px',
-          lg: '42px',
-          xl: '42px',
-          '2xl': '42px',
+          base: '0.791rem',
+          sm: '0.791rem',
+          md: '0.791rem',
+          lg: '2.625rem',
+          xl: '2.625rem',
+          '2xl': '2.625rem',
         }}
       >
         <Image
           src="/assets/company-icons/zoom.svg"
-          width={{ base: '38px', sm: '38px', md: '38px', lg: '129px', xl: '129px', '2xl': '129px' }}
+          width={{
+            base: '2.375rem',
+            sm: '2.375rem',
+            md: '2.375rem',
+            lg: '8.063rem',
+            xl: '8.063rem',
+            '2xl': '8.063rem',
+          }}
           alt="zoom logo"
         />
         <Image
           src="/assets/company-icons/stripe.svg"
-          width={{ base: '38px', sm: '38px', md: '38px', lg: '129px', xl: '129px', '2xl': '129px' }}
+          width={{
+            base: '2.375rem',
+            sm: '2.375rem',
+            md: '2.375rem',
+            lg: '8.063rem',
+            xl: '8.063rem',
+            '2xl': '8.063rem',
+          }}
           alt="stripe logo"
         />
         <Image
           src="/assets/company-icons/monday.svg"
-          width={{ base: '59px', sm: '59px', md: '59px', lg: '199px', xl: '199px', '2xl': '199px' }}
+          width={{
+            base: '3.688rem',
+            sm: '3.688rem',
+            md: '3.688rem',
+            lg: '12.438rem',
+            xl: '12.438rem',
+            '2xl': '12.438rem',
+          }}
           alt="monday logo"
         />
         <Image
           src="/assets/company-icons/slack.svg"
-          width={{ base: '47px', sm: '47px', md: '47px', lg: '158px', xl: '158px', '2xl': '158px' }}
+          width={{
+            base: '2.938rem',
+            sm: '2.938rem',
+            md: '2.938rem',
+            lg: '9.875rem',
+            xl: '9.875rem',
+            '2xl': '9.875rem',
+          }}
           alt="slack logo"
         />
         <Image
           src="/assets/company-icons/dropbox.svg"
-          width={{ base: '59px', sm: '59px', md: '59px', lg: '199px', xl: '199px', '2xl': '199px' }}
+          width={{
+            base: '3.688rem',
+            sm: '3.688rem',
+            md: '3.688rem',
+            lg: '12.438rem',
+            xl: '12.438rem',
+            '2xl': '12.438rem',
+          }}
           alt="dropbox logo"
         />
       </HStack>
