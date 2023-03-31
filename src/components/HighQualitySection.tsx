@@ -11,9 +11,9 @@ const HighQualitySection = () => {
     link: '#',
     color: 'white',
     bgColor: '#004DB3',
-    width: '166px',
-    height: '54px',
-    fontSize: '16px',
+    width: '10.375rem',
+    height: '3.375rem',
+    fontSize: '1rem',
   };
 
   const primaryButtonPropsMobile: PrimaryButtonType = {
@@ -21,19 +21,19 @@ const HighQualitySection = () => {
     link: '#',
     color: 'white',
     bgColor: '#004DB3',
-    width: '83px',
-    height: '27px',
-    fontSize: '8px',
+    width: '5.188rem',
+    height: '1.688rem',
+    fontSize: '0.5rem',
   };
 
   const avatarPropsMobile: AvatarWidth = {
-    width: '23px',
-    height: '23px',
+    width: '1.438rem',
+    height: '1.438rem',
   };
 
   const avatarPropsDesktop: AvatarWidth = {
-    width: '36px',
-    height: '36px',
+    width: '2.25rem',
+    height: '2.25rem',
   };
   return (
     <Flex
@@ -47,10 +47,10 @@ const HighQualitySection = () => {
       }}
       justifyContent="center"
       background="#F8F9FC"
-      height="666px"
+      height="41.625rem"
       position="relative"
-      gap={{ base: '24px', sm: '24px', md: '24px', lg: '0', xl: '0', '2xl': '0' }}
-      paddingTop={{ lg: '60px', xl: '60px', '2xl': '60px' }}
+      gap={{ base: '1.5rem', sm: '1.5rem', md: '1.5rem', lg: '0', xl: '0', '2xl': '0' }}
+      paddingTop={{ lg: '3.75rem', xl: '3.75rem', '2xl': '3.75rem' }}
       width="100vw"
     >
       <Flex
@@ -64,11 +64,11 @@ const HighQualitySection = () => {
         }}
         width={{ xl: '83%', '2xl': '60%' }}
         justifyContent="center"
-        gap={{ base: '24px', sm: '24px', md: '24px' }}
+        gap={{ base: '1.5rem', sm: '1.5rem', md: '1.5rem' }}
       >
         <Flex
           flexDirection="column"
-          marginTop={{ lg: '30px', xl: '30px', '2xl': '30px' }}
+          marginTop={{ lg: '1.875rem', xl: '1.875rem', '2xl': '1.875rem' }}
           alignItems={{
             base: 'center',
             sm: 'center',
@@ -77,37 +77,44 @@ const HighQualitySection = () => {
             xl: 'flex-start',
             '2xl': 'flex-start',
           }}
-          gap="16px"
+          gap="1rem"
         >
           <Box>
             <Image
               src="/assets/text-crown.svg"
               alt="text crown"
               position="absolute"
-              top={{ base: '32px', sm: '32px', md: '32px', lg: '80px', xl: '80px', '2xl': '80px' }}
+              top={{
+                base: '2.2rem',
+                sm: '2.2rem',
+                md: '2.2rem',
+                lg: '5rem',
+                xl: '5rem',
+                '2xl': '5rem',
+              }}
               left={{
-                base: '6px',
-                sm: '6px',
-                md: '6px',
-                lg: '100px',
-                xl: '102px',
-                '2xl': '364px',
+                base: '0.375rem',
+                sm: '0.375rem',
+                md: '0.375rem',
+                lg: '6.25rem',
+                xl: '6.375rem',
+                '2xl': '22.75rem',
               }}
             />
             <Text
               fontFamily="Clash Display"
               fontSize={{
-                base: '24px',
-                sm: '24px',
-                md: '24px',
-                lg: '56px',
-                xl: '56px',
-                '2xl': '56px',
+                base: '1.5rem',
+                sm: '1.5rem',
+                md: '1.5rem',
+                lg: '3.5rem',
+                xl: '3.5rem',
+                '2xl': '3.5rem',
               }}
-              width={{ lg: '694px', xl: '694px', '2xl': '694px' }}
+              width={{ lg: '43.375rem', xl: '43.375rem', '2xl': '43.375rem' }}
               textAlign={{ base: 'center', sm: 'center', md: 'center', lg: 'left', '2xl': 'left' }}
               color="#000F24"
-              lineHeight={{ xl: '70px' }}
+              lineHeight={{ xl: '4.375rem' }}
             >
               High quality video, audio & live classes
             </Text>
@@ -117,28 +124,28 @@ const HighQualitySection = () => {
             fontFamily="Satoshi"
             color="#A1A1A1"
             fontSize={{
-              base: '8px',
-              sm: '8px',
-              md: '8px',
-              lg: '16px',
-              xl: '16px',
-              '2xl': '16px',
+              base: '0.5rem',
+              sm: '0.5rem',
+              md: '0.5rem',
+              lg: '1rem',
+              xl: '1rem',
+              '2xl': '1rem',
             }}
             lineHeight={{
-              base: '15.39px',
-              sm: '15.39px',
-              md: '15.39px',
-              lg: '28px',
-              xl: '28px',
-              '2xl': '28px',
+              base: '0.962rem',
+              sm: '0.962rem',
+              md: '0.962rem',
+              lg: '1.75rem',
+              xl: '1.75rem',
+              '2xl': '1.75rem',
             }}
             width={{
-              base: '332.04px',
-              sm: '332.04px',
-              md: '332.04px',
-              lg: '604px',
-              xl: '604px',
-              '2xl': '604px',
+              base: '20.753rem',
+              sm: '20.753rem',
+              md: '20.753rem',
+              lg: '37.75rem',
+              xl: '37.75rem',
+              '2xl': '37.75rem',
             }}
             textTransform="capitalize"
           >
@@ -175,21 +182,21 @@ const HighQualitySection = () => {
 
           <Flex
             width={{
-              base: '277.38px',
-              sm: '277.38px',
-              md: '277.38px',
-              lg: '492px',
-              xl: '492px',
-              '2xl': '492px',
+              base: '17.336rem',
+              sm: '17.336rem',
+              md: '17.336rem',
+              lg: '30.75rem',
+              xl: '30.75rem',
+              '2xl': '30.75rem',
             }}
             flexDirection="column"
             gap={{
-              base: '13.19px',
-              sm: '13.19px',
-              md: '13.19px',
-              lg: '24px',
-              xl: '24px',
-              '2xl': '24px',
+              base: '0.824rem',
+              sm: '0.824rem',
+              md: '0.824rem',
+              lg: '1.5rem',
+              xl: '1.5rem',
+              '2xl': '1.5rem',
             }}
             alignItems={{
               base: 'center',
@@ -202,41 +209,48 @@ const HighQualitySection = () => {
           >
             <Flex
               gap={{
-                base: '13.19px',
-                sm: '13.19px',
-                md: '13.19px',
-                lg: '24px',
-                xl: '24px',
-                '2xl': '24px',
+                base: '0.824rem',
+                sm: '0.824rem',
+                md: '0.824rem',
+                lg: '1.5rem',
+                xl: '1.5rem',
+                '2xl': '1.5rem',
               }}
             >
               <Flex
                 background="#FFFFFF"
                 borderRadius={{
-                  base: '4px',
-                  sm: '4px',
-                  md: '4px',
-                  lg: '8px',
-                  xl: '8px',
-                  '2xl': '8px',
+                  base: '0.25rem',
+                  sm: '0.25rem',
+                  md: '0.25rem',
+                  lg: '0.5rem',
+                  xl: '0.5rem',
+                  '2xl': '0.5rem',
                 }}
                 width={{
-                  base: '129.59px',
-                  sm: '129.59px',
-                  md: '129.59px',
-                  lg: '232px',
-                  xl: '232px',
-                  '2xl': '232px',
+                  base: '8.099rem',
+                  sm: '8.099rem',
+                  md: '8.099rem',
+                  lg: '14.5rem',
+                  xl: '14.5rem',
+                  '2xl': '14.5rem',
                 }}
                 padding={{
-                  base: '8px 32px 8px 16px',
-                  sm: '8px 32px 8px 16px',
-                  md: '8px 32px 8px 16px',
-                  lg: '20px 56px 20px 24px',
-                  xl: '20px 56px 20px 24px',
-                  '2xl': '20px 56px 20px 24px',
+                  base: '0.5rem 2rem 0.5rem 1rem',
+                  sm: '0.5rem 2rem 0.5rem 1rem',
+                  md: '0.5rem 2rem 0.5rem 1rem',
+                  lg: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  xl: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  '2xl': '1.25rem 3.5rem 1.25rem 1.5rem',
                 }}
-                gap={{ base: '8px', sm: '8px', md: '8px', lg: '16px', xl: '16px', '2xl': '16px' }}
+                gap={{
+                  base: '0.5rem',
+                  sm: '0.5rem',
+                  md: '0.5rem',
+                  lg: '1rem',
+                  xl: '1rem',
+                  '2xl': '1rem',
+                }}
                 alignItems="center"
               >
                 <Image
@@ -300,24 +314,24 @@ const HighQualitySection = () => {
                   src="/assets/icons/live-class-icon.svg"
                   alt="live class icon"
                   width={{
-                    base: '17.59px',
-                    sm: '17.59px',
-                    md: '17.59',
-                    lg: '32px',
-                    xl: '32px',
-                    '2xl': '32px',
+                    base: '1.099rem',
+                    sm: '1.099rem',
+                    md: '1.099rem',
+                    lg: '2rem',
+                    xl: '2rem',
+                    '2xl': '2rem',
                   }}
                 />
                 <Text
                   fontFamily="Satoshi Bold"
                   fontWeight="bold"
                   fontSize={{
-                    base: '8px',
-                    sm: '8px',
-                    md: '8px',
-                    lg: '16px',
-                    xl: '16px',
-                    '2xl': '16px',
+                    base: '0.5rem',
+                    sm: '0.5rem',
+                    md: '0.5rem',
+                    lg: '1rem',
+                    xl: '1rem',
+                    '2xl': '1rem',
                   }}
                 >
                   Live Classes
@@ -327,65 +341,72 @@ const HighQualitySection = () => {
 
             <Flex
               gap={{
-                base: '13.19px',
-                sm: '13.19px',
-                md: '13.19px',
-                lg: '24px',
-                xl: '24px',
-                '2xl': '24px',
+                base: '0.824rem',
+                sm: '0.824rem',
+                md: '0.824rem',
+                lg: '1.5rem',
+                xl: '1.5rem',
+                '2xl': '1.5rem',
               }}
             >
               <Flex
                 background="#FFFFFF"
                 borderRadius={{
-                  base: '4px',
-                  sm: '4px',
-                  md: '4px',
-                  lg: '8px',
-                  xl: '8px',
-                  '2xl': '8px',
+                  base: '0.25rem',
+                  sm: '0.25rem',
+                  md: '0.25rem',
+                  lg: '0.5rem',
+                  xl: '0.5rem',
+                  '2xl': '0.5rem',
                 }}
                 width={{
-                  base: '146.59px',
-                  sm: '146.59px',
-                  md: '146.59px',
-                  lg: '261px',
-                  xl: '261px',
-                  '2xl': '261px',
+                  base: '9.162rem',
+                  sm: '9.162rem',
+                  md: '9.162rem',
+                  lg: '16.313rem',
+                  xl: '16.313rem',
+                  '2xl': '16.313rem',
                 }}
                 padding={{
-                  base: '8px 32px 8px 16px',
-                  sm: '8px 32px 8px 16px',
-                  md: '8px 32px 8px 16px',
-                  lg: '20px 56px 20px 24px',
-                  xl: '20px 56px 20px 24px',
-                  '2xl': '20px 56px 20px 24px',
+                  base: '0.5rem 2rem 0.5rem 1rem',
+                  sm: '0.5rem 2rem 0.5rem 1rem',
+                  md: '0.5rem 2rem 0.5rem 1rem',
+                  lg: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  xl: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  '2xl': '1.25rem 3.5rem 1.25rem 1.5rem',
                 }}
-                gap={{ base: '8px', sm: '8px', md: '8px', lg: '16px', xl: '16px', '2xl': '16px' }}
+                gap={{
+                  base: '0.5rem',
+                  sm: '0.5rem',
+                  md: '0.5rem',
+                  lg: '1rem',
+                  xl: '1rem',
+                  '2xl': '1rem',
+                }}
                 alignItems="center"
               >
                 <Image
                   src="/assets/icons/recorded-classes-icon.svg"
                   alt="recorded classes icon"
                   width={{
-                    base: '17.59px',
-                    sm: '17.59px',
-                    md: '17.59',
-                    lg: '32px',
-                    xl: '32px',
-                    '2xl': '32px',
+                    base: '1.099rem',
+                    sm: '1.099rem',
+                    md: '1.099rem',
+                    lg: '2rem',
+                    xl: '2rem',
+                    '2xl': '2rem',
                   }}
                 />
                 <Text
                   fontFamily="Satoshi Bold"
                   fontWeight="bold"
                   fontSize={{
-                    base: '8px',
-                    sm: '8px',
-                    md: '8px',
-                    lg: '16px',
-                    xl: '16px',
-                    '2xl': '16px',
+                    base: '0.5rem',
+                    sm: '0.5rem',
+                    md: '0.5rem',
+                    lg: '1rem',
+                    xl: '1rem',
+                    '2xl': '1rem',
                   }}
                 >
                   Recorded Classes
@@ -395,54 +416,61 @@ const HighQualitySection = () => {
               <Flex
                 background="#FFFFFF"
                 borderRadius={{
-                  base: '4px',
-                  sm: '4px',
-                  md: '4px',
-                  lg: '8px',
-                  xl: '8px',
-                  '2xl': '8px',
+                  base: '0.25rem',
+                  sm: '0.25rem',
+                  md: '0.25rem',
+                  lg: '0.5rem',
+                  xl: '0.5rem',
+                  '2xl': '0.5rem',
                 }}
                 width={{
-                  base: '117.59px',
-                  sm: '117.59px',
-                  md: '117.59px',
-                  lg: '217px',
-                  xl: '217px',
-                  '2xl': '217px',
+                  base: '7.349rem',
+                  sm: '7.349rem',
+                  md: '7.349rem',
+                  lg: '13.563rem',
+                  xl: '13.563rem',
+                  '2xl': '13.563rem',
                 }}
                 padding={{
-                  base: '8px 32px 8px 16px',
-                  sm: '8px 32px 8px 16px',
-                  md: '8px 32px 8px 16px',
-                  lg: '20px 56px 20px 24px',
-                  xl: '20px 56px 20px 24px',
-                  '2xl': '20px 56px 20px 24px',
+                  base: '0.5rem 2rem 0.5rem 1rem',
+                  sm: '0.5rem 2rem 0.5rem 1rem',
+                  md: '0.5rem 2rem 0.5rem 1rem',
+                  lg: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  xl: '1.25rem 3.5rem 1.25rem 1.5rem',
+                  '2xl': '1.25rem 3.5rem 1.25rem 1.5rem',
                 }}
-                gap={{ base: '8px', sm: '8px', md: '8px', lg: '16px', xl: '16px', '2xl': '16px' }}
+                gap={{
+                  base: '0.5rem',
+                  sm: '0.5rem',
+                  md: '0.5rem',
+                  lg: '1rem',
+                  xl: '1rem',
+                  '2xl': '1rem',
+                }}
                 alignItems="center"
               >
                 <Image
                   src="/assets/icons/notes-icon.svg"
                   alt="notes icon"
                   width={{
-                    base: '17.59px',
-                    sm: '17.59px',
-                    md: '17.59',
-                    lg: '32px',
-                    xl: '32px',
-                    '2xl': '32px',
+                    base: '1.099rem',
+                    sm: '1.099rem',
+                    md: '1.099rem',
+                    lg: '2rem',
+                    xl: '2rem',
+                    '2xl': '2rem',
                   }}
                 />
                 <Text
                   fontFamily="Satoshi Bold"
                   fontWeight="bold"
                   fontSize={{
-                    base: '8px',
-                    sm: '8px',
-                    md: '8px',
-                    lg: '16px',
-                    xl: '16px',
-                    '2xl': '16px',
+                    base: '0.5rem',
+                    sm: '0.5rem',
+                    md: '0.5rem',
+                    lg: '1rem',
+                    xl: '1rem',
+                    '2xl': '1rem',
                   }}
                 >
                   50+ Notes
@@ -454,94 +482,108 @@ const HighQualitySection = () => {
 
         <Box
           width={{
-            base: '352.88px',
-            sm: '352.88px',
-            md: '352.88px',
-            lg: '805px',
-            xl: '805px',
-            '2xl': '805px',
+            base: '22.055rem',
+            sm: '22.055rem',
+            md: '22.055rem',
+            lg: '50.313rem',
+            xl: '50.313rem',
+            '2xl': '50.313rem',
           }}
           height={{
-            base: '253.66px',
-            sm: '253.66px',
-            md: '253.66px',
-            lg: '622px',
-            xl: '622px',
-            '2xl': '622px',
+            base: '15.854rem',
+            sm: '15.854rem',
+            md: '15.854rem',
+            lg: '38.875rem',
+            xl: '38.875rem',
+            '2xl': '38.875rem',
           }}
           position="relative"
           left={{
-            base: '20px',
-            sm: '20px',
-            md: '20px',
-            lg: '-100px',
-            xl: '-100px',
-            '2xl': '-100px',
+            base: '1.25rem',
+            sm: '1.25rem',
+            md: '1.25rem',
+            lg: '-6.25rem',
+            xl: '-6.25rem',
+            '2xl': '-6.25rem',
           }}
         >
           <Image
             src="/assets/images/headset-macbook.jpeg"
             alt="man with headset and macbook"
             width={{
-              base: '265px',
-              sm: '265px',
-              md: '265px',
-              lg: '480px',
-              xl: '480px',
-              '2xl': '480px',
+              base: '16.563rem',
+              sm: '16.563rem',
+              md: '16.563rem',
+              lg: '30rem',
+              xl: '30rem',
+              '2xl': '30rem',
             }}
             objectFit="cover"
             height={{
-              base: '194px',
-              sm: '194px',
-              md: '194px',
-              lg: '412px',
-              xl: '412px',
-              '2xl': '412px',
+              base: '12.125rem',
+              sm: '12.125rem',
+              md: '12.125rem',
+              lg: '25.75rem',
+              xl: '25.75rem',
+              '2xl': '25.75rem',
             }}
             position="absolute"
             left={{
-              base: '87.23px',
-              sm: '87.23px',
-              md: '87.23px',
-              lg: '199px',
-              xl: '199px',
-              '2xl': '199px',
+              base: '5.452rem',
+              sm: '5.452rem',
+              md: '5.452rem',
+              lg: '12.438rem',
+              xl: '12.438rem',
+              '2xl': '12.438rem',
             }}
             border={{
-              base: '3.95px solid #5588CC',
-              sm: '3.95px solid #5588CC',
-              md: '3.95px solid #5588CC',
-              lg: '5px solid #5588CC',
-              xl: '5px solid #5588CC',
-              '2xl': '5px solid #5588CC',
+              base: '0.247rem solid #5588CC',
+              sm: '0.247rem solid #5588CC',
+              md: '0.247rem solid #5588CC',
+              lg: '0.313rem solid #5588CC',
+              xl: '0.313rem solid #5588CC',
+              '2xl': '0.313rem solid #5588CC',
             }}
-            borderRadius="8px"
+            borderRadius="0.5rem"
             zIndex={2}
           />
 
           <Flex
             flexDirection="column"
             position="absolute"
-            left={{ base: '35px', sm: '35px', md: '35px', lg: '90px', xl: '90px', '2xl': '80px' }}
-            top={{ base: '45px', sm: '45px', md: '45px', lg: '115px', xl: '115px', '2xl': '115px' }}
+            left={{
+              base: '2.188rem',
+              sm: '2.188rem',
+              md: '2.188rem',
+              lg: '5.625rem',
+              xl: '5.625rem',
+              '2xl': '5rem',
+            }}
+            top={{
+              base: '2.813rem',
+              sm: '2.813rem',
+              md: '2.813rem',
+              lg: '7.188rem',
+              xl: '7.188rem',
+              '2xl': '7.188rem',
+            }}
             background="#FFFFFF"
             borderRadius={{
-              base: '3.5px',
-              sm: '3.5px',
-              md: '3.5px',
-              lg: '8px',
-              xl: '8px',
-              '2xl': '8px',
+              base: '0.219rem',
+              sm: '0.219rem',
+              md: '0.219rem',
+              lg: '0.5rem',
+              xl: '0.5rem',
+              '2xl': '0.5rem',
             }}
             alignItems="center"
             padding={{
-              base: '3px 8px',
-              sm: '3px 8px',
-              md: '3px 8px',
-              lg: '6px 16px',
-              xl: '6px 16px',
-              '2xl': '6px 16px',
+              base: '0.188rem 0.5rem',
+              sm: '0.188rem 0.5rem',
+              md: '0.188rem 0.5rem',
+              lg: '0.375rem 1rem',
+              xl: '0.375rem 1rem',
+              '2xl': '0.375rem 1rem',
             }}
             zIndex={3}
           >
@@ -550,9 +592,9 @@ const HighQualitySection = () => {
                 base: '6px',
                 sm: '6px',
                 md: '6px',
-                lg: '12px',
-                xl: '12px',
-                '2xl': '12px',
+                lg: '0.75rem',
+                xl: '0.75rem',
+                '2xl': '0.75rem',
               }}
               fontFamily="Satoshi"
               fontWeight="bold"
@@ -591,40 +633,40 @@ const HighQualitySection = () => {
             src="/assets/images/lady-whiteboard.jpeg"
             alt="lady facing a whiteboard"
             width={{
-              base: '174px',
-              sm: '174px',
-              md: '174px',
-              lg: '360px',
-              xl: '360px',
-              '2xl': '360px',
+              base: '10.875rem',
+              sm: '10.875rem',
+              md: '10.875rem',
+              lg: '22.5rem',
+              xl: '22.5rem',
+              '2xl': '22.5rem',
             }}
             height={{
-              base: '116px',
-              sm: '116px',
-              md: '116px',
-              lg: '250px',
-              xl: '250px',
-              '2xl': '250px',
+              base: '7.25rem',
+              sm: '7.25rem',
+              md: '7.25rem',
+              lg: '15.625rem',
+              xl: '15.625rem',
+              '2xl': '15.625rem',
             }}
             position="absolute"
             left="0"
             top={{
-              base: '136.49px',
-              sm: '136.49px',
-              md: '136.49px',
-              lg: '297px',
-              xl: '297px',
-              '2xl': '297px',
+              base: '8.531rem',
+              sm: '8.531rem',
+              md: '8.531rem',
+              lg: '18.563rem',
+              xl: '18.563rem',
+              '2xl': '18.563rem',
             }}
             border={{
-              base: '2.19178px solid #5588CC',
-              sm: '2.19178px solid #5588CC',
-              md: '2.19178px solid #5588CC',
-              lg: '4px solid #5588CC',
-              xl: '4px solid #5588CC',
-              '2xl': '4px solid #5588CC',
+              base: '0.137rem solid #5588CC',
+              sm: '0.137rem solid #5588CC',
+              md: '0.137rem solid #5588CC',
+              lg: '0.25rem solid #5588CC',
+              xl: '0.25rem solid #5588CC',
+              '2xl': '0.25rem solid #5588CC',
             }}
-            borderRadius="8px"
+            borderRadius="0.5rem"
             zIndex={4}
           />
 
@@ -633,20 +675,20 @@ const HighQualitySection = () => {
             alt="blue splash image"
             position="absolute"
             top={{
-              base: '110.59px',
-              sm: '110.59px',
-              md: '110.59px',
-              lg: '295px',
-              xl: '295px',
-              '2xl': '295px',
+              base: '6.912rem',
+              sm: '6.912rem',
+              md: '6.912rem',
+              lg: '18.438rem',
+              xl: '18.438rem',
+              '2xl': '18.438rem',
             }}
             left={{
-              base: '287.67px',
-              sm: '287.67px',
-              md: '287.67',
-              lg: '603px',
-              xl: '603px',
-              '2xl': '580px',
+              base: '17.979rem',
+              sm: '17.979rem',
+              md: '17.979rem',
+              lg: '37.688rem',
+              xl: '37.688rem',
+              '2xl': '35rem',
             }}
             zIndex={1}
           />
@@ -656,20 +698,20 @@ const HighQualitySection = () => {
             alt="purple circle"
             position="absolute"
             top={{
-              base: '255px',
-              sm: '255px',
-              md: '255px',
-              lg: '540px',
-              xl: '540px',
-              '2xl': '540px',
+              base: '15.938rem',
+              sm: '15.938rem',
+              md: '15.938rem',
+              lg: '33.75rem',
+              xl: '33.75rem',
+              '2xl': '33.75rem',
             }}
             left={{
-              base: '260px',
-              sm: '260px',
-              md: '260px',
-              lg: '520px',
-              xl: '520px',
-              '2xl': '520px',
+              base: '16.25rem',
+              sm: '16.25rem',
+              md: '16.25rem',
+              lg: '32.5rem',
+              xl: '32.5rem',
+              '2xl': '32.5rem',
             }}
           />
         </Box>
@@ -680,7 +722,14 @@ const HighQualitySection = () => {
         src="/assets/vectors/green-zigzag.svg"
         alt="green zigzag"
         position="absolute"
-        top={{ base: '200px', sm: '200px', md: '200px', lg: '30px', xl: '30px', '2xl': '30px' }}
+        top={{
+          base: '12.5rem',
+          sm: '12.5rem',
+          md: '12.5rem',
+          lg: '1.875rem',
+          xl: '1.875rem',
+          '2xl': '1.875rem',
+        }}
         right="0"
       />
 
@@ -689,7 +738,14 @@ const HighQualitySection = () => {
         src="/assets/vectors/green-zigzag-desktop.svg"
         alt="green zigzag"
         position="absolute"
-        top={{ base: '225px', sm: '225px', md: '225px', lg: '30px', xl: '30px', '2xl': '30px' }}
+        top={{
+          base: '14.063rem',
+          sm: '14.063rem',
+          md: '14.063rem',
+          lg: '1.875rem',
+          xl: '1.875rem',
+          '2xl': '1.875rem',
+        }}
         right="0"
       />
 
@@ -698,7 +754,7 @@ const HighQualitySection = () => {
         src="/assets/vectors/light-purple-half-circle.svg"
         alt="purple half circle"
         position="absolute"
-        top="350px"
+        top="21.875rem"
         right="0"
       />
 
@@ -707,7 +763,7 @@ const HighQualitySection = () => {
         src="/assets/vectors/light-purple-half-circle-desktop.svg"
         alt="purple half circle"
         position="absolute"
-        top="350px"
+        top="21.875rem"
         right="0"
       />
     </Flex>
