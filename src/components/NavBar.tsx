@@ -27,8 +27,8 @@ const NavBar = () => {
     link: '#',
     color: '#004DB3',
     bgColor: 'white',
-    width: '145px',
-    height: '54px',
+    width: '9.063rem',
+    height: '3.375rem',
     fontSize: '1rem',
   };
 
@@ -61,12 +61,12 @@ const NavBar = () => {
               src="/assets/techtime.svg"
               alt="tech time logo"
               width={{
-                base: '53px',
-                sm: '53px',
-                md: '53px',
-                lg: '130px',
-                xl: '130px',
-                '2xl': '130px',
+                base: '3.313rem',
+                sm: '3.313rem',
+                md: '3.313rem',
+                lg: '8.125rem',
+                xl: '8.125rem',
+                '2xl': '8.125rem',
               }}
             />
           </Link>
@@ -102,7 +102,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+            <Text
+              fontFamily="Satoshi"
+              fontSize="1rem"
+              fontWeight="bold"
+              color="#AAC4E6"
+              _hover={{ color: 'white' }}
+            >
               About Us
             </Text>
           </Link>
@@ -119,7 +125,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+            <Text
+              fontFamily="Satoshi"
+              fontSize="1rem"
+              fontWeight="bold"
+              color="#AAC4E6"
+              _hover={{ color: 'white' }}
+            >
               Courses
             </Text>
           </Link>
@@ -136,7 +148,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+            <Text
+              fontFamily="Satoshi"
+              fontSize="1rem"
+              fontWeight="bold"
+              color="#AAC4E6"
+              _hover={{ color: 'white' }}
+            >
               Testimonial
             </Text>
           </Link>
@@ -153,7 +171,13 @@ const NavBar = () => {
               '2xl': 'flex',
             }}
           >
-            <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+            <Text
+              fontFamily="Satoshi"
+              fontSize="1rem"
+              fontWeight="bold"
+              color="#AAC4E6"
+              _hover={{ color: 'white' }}
+            >
               Community
             </Text>
           </Link>
@@ -183,7 +207,7 @@ const NavBar = () => {
               '2xl': 'none',
             }}
           >
-            <HamburgerIcon boxSize={8} color="white" width="18px" />
+            <HamburgerIcon boxSize={8} color="white" width="1.125rem" />
           </Box>
         </HStack>
       </HStack>
@@ -204,14 +228,14 @@ const NavBar = () => {
                 src="/assets/techtime.svg"
                 alt="tech time logo"
                 width={{
-                  base: '75px',
-                  sm: '75px',
-                  md: '75px',
-                  lg: '130px',
-                  xl: '130px',
-                  '2xl': '130px',
+                  base: '4.688rem',
+                  sm: '4.688rem',
+                  md: '4.688rem',
+                  lg: '8.125rem',
+                  xl: '8.125rem',
+                  '2xl': '8.125rem',
                 }}
-                marginTop="5px"
+                marginTop="0.313rem"
               />
             </DrawerHeader>
 
@@ -224,7 +248,7 @@ const NavBar = () => {
           </Box>
 
           <DrawerBody display="flex" justifyContent="center" alignItems="center">
-            <VStack spacing="24px">
+            <VStack spacing="1.5rem">
               <Link href="#" _hover={{ textDecoration: 'none' }}>
                 <Text fontFamily="Satoshi Bold" fontSize="1rem" fontWeight="bold" color="white">
                   Home
@@ -232,25 +256,49 @@ const NavBar = () => {
               </Link>
 
               <Link href="#" _hover={{ textDecoration: 'none' }}>
-                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                <Text
+                  fontFamily="Satoshi"
+                  fontSize="1rem"
+                  fontWeight="bold"
+                  color="#AAC4E6"
+                  _hover={{ color: 'white' }}
+                >
                   About Us
                 </Text>
               </Link>
 
               <Link href="#" _hover={{ textDecoration: 'none' }}>
-                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                <Text
+                  fontFamily="Satoshi"
+                  fontSize="1rem"
+                  fontWeight="bold"
+                  color="#AAC4E6"
+                  _hover={{ color: 'white' }}
+                >
                   Courses
                 </Text>
               </Link>
 
               <Link href="#" _hover={{ textDecoration: 'underline' }}>
-                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                <Text
+                  fontFamily="Satoshi"
+                  fontSize="1rem"
+                  fontWeight="bold"
+                  color="#AAC4E6"
+                  _hover={{ color: 'white' }}
+                >
                   Testimonial
                 </Text>
               </Link>
 
               <Link href="#" _hover={{ textDecoration: 'none' }}>
-                <Text fontFamily="Satoshi" fontSize="1rem" fontWeight="bold" color="#AAC4E6">
+                <Text
+                  fontFamily="Satoshi"
+                  fontSize="1rem"
+                  fontWeight="bold"
+                  color="#AAC4E6"
+                  _hover={{ color: 'white' }}
+                >
                   Community
                 </Text>
               </Link>
