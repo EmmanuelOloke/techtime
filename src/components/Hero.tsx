@@ -12,9 +12,9 @@ const Hero = () => {
     link: '#',
     color: '#004DB3',
     bgColor: 'white',
-    width: '73px',
-    height: '27px',
-    fontSize: '8px',
+    width: '4.563rem',
+    height: '1.688rem',
+    fontSize: '0.5rem',
   };
 
   const primaryButtonPropsDesktop: PrimaryButtonType = {
@@ -22,23 +22,23 @@ const Hero = () => {
     link: '#',
     color: '#004DB3',
     bgColor: 'white',
-    width: '145px',
-    height: '54px',
-    fontSize: '16px',
+    width: '9.063rem',
+    height: '3.375rem',
+    fontSize: '1rem',
   };
 
   const avatarPropsMobile: AvatarWidth = {
-    width: '32px',
-    height: '32px',
+    width: '2rem',
+    height: '2rem',
   };
 
   const avatarPropsDesktop: AvatarWidth = {
-    width: '56px',
-    height: '56px',
+    width: '3.5rem',
+    height: '3.5rem',
   };
   return (
     <Flex
-      height="826px"
+      height="51.625rem"
       width="100vw"
       background="#004DB3"
       backgroundImage={{
@@ -64,12 +64,12 @@ const Hero = () => {
         alignItems="center"
         position="absolute"
         top={{
-          base: '80px',
-          sm: '80px',
-          md: '80px',
-          lg: '150px',
-          xl: '150px',
-          '2xl': '150px',
+          base: '5rem',
+          sm: '5rem',
+          md: '5rem',
+          lg: '9.375rem',
+          xl: '9.375rem',
+          '2xl': '9.375rem',
         }}
         w={{
           base: '100%',
@@ -90,25 +90,25 @@ const Hero = () => {
             '2xl': 'flex-start',
           }}
           gap={{
-            base: '8px',
-            sm: '8px',
-            md: '8px',
-            lg: '24px',
-            xl: '24px',
-            '2xl': '24px',
+            base: '0.5rem',
+            sm: '0.5rem',
+            md: '0.5rem',
+            lg: '1.5rem',
+            xl: '1.5rem',
+            '2xl': '1.5rem',
           }}
-          marginTop="26px"
+          marginTop="1.625rem"
         >
           <Text
             fontFamily="Clash Display"
             color="#FFFFFF"
             fontSize={{
-              base: '32px',
-              sm: '32px',
-              md: '32px',
-              lg: '54px',
-              xl: '54px',
-              '2xl': '50px',
+              base: '2rem',
+              sm: '2rem',
+              md: '2rem',
+              lg: '3.375rem',
+              xl: '3.375rem',
+              '2xl': '3.125rem',
             }}
             textAlign={{
               base: 'center',
@@ -119,12 +119,12 @@ const Hero = () => {
               '2xl': 'left',
             }}
             lineHeight={{
-              base: '45.78px',
-              sm: '45.78px',
-              md: '45.78px',
-              lg: '60px',
-              xl: '60px',
-              '2xl': '60px',
+              base: '2.861rem',
+              sm: '2.861rem',
+              md: '2.861rem',
+              lg: '3.75rem',
+              xl: '3.75rem',
+              '2xl': '3.75rem',
             }}
           >
             Grow your skills to advance your career path
@@ -134,12 +134,12 @@ const Hero = () => {
             fontFamily="Satoshi"
             color="#FFFFFF"
             fontSize={{
-              base: '10px',
-              sm: '10px',
-              md: '10px',
-              lg: '16px',
-              xl: '16px',
-              '2xl': '16px',
+              base: '0.625rem',
+              sm: '0.625rem',
+              md: '0.625rem',
+              lg: '1rem',
+              xl: '1rem',
+              '2xl': '1rem',
             }}
             textAlign={{
               base: 'center',
@@ -150,28 +150,28 @@ const Hero = () => {
               '2xl': 'left',
             }}
             lineHeight={{
-              base: '15px',
-              sm: '15px',
-              md: '15px',
-              lg: '26px',
-              xl: '26px',
-              '2xl': '26px',
+              base: '0.938rem',
+              sm: '0.938rem',
+              md: '0.938rem',
+              lg: '1.625rem',
+              xl: '1.625rem',
+              '2xl': '1.625rem',
             }}
             textTransform="capitalize"
             width={{
-              base: '360px',
-              sm: '360px',
-              md: '360px',
-              lg: '503px',
-              xl: '503px',
-              '2xl': '503px',
+              base: '22.5rem',
+              sm: '22.5rem',
+              md: '22.5rem',
+              lg: '31.438rem',
+              xl: '31.438rem',
+              '2xl': '31.438rem',
             }}
           >
             build your future with our quality education. the best and largest all-in-one online
             tutoring platform in the world
           </Text>
 
-          <HStack gap="13.4px">
+          <HStack gap="0.838rem">
             <GetStartedButton />
 
             <Box
@@ -201,7 +201,7 @@ const Hero = () => {
             </Box>
           </HStack>
 
-          <Flex gap="4.47px">
+          <Flex gap="0.279rem">
             <Box
               display={{
                 base: 'flex',
@@ -232,12 +232,12 @@ const Hero = () => {
               <Text
                 fontFamily="Clash Display"
                 fontSize={{
-                  base: '13.4px',
-                  sm: '13.4px',
-                  md: '13.4px',
-                  lg: '24px',
-                  xl: '24px',
-                  '2xl': '24px',
+                  base: '0.838rem',
+                  sm: '0.838rem',
+                  md: '0.838rem',
+                  lg: '1.5rem',
+                  xl: '1.5rem',
+                  '2xl': '1.5rem',
                 }}
                 color="#FFFFFF"
               >
@@ -247,12 +247,12 @@ const Hero = () => {
                 fontFamily="Satoshi"
                 color="#FFFFFF"
                 fontSize={{
-                  base: '8px',
-                  sm: '8px',
-                  md: '8px',
-                  lg: '16px',
-                  xl: '16px',
-                  '2xl': '16px',
+                  base: '0.5rem',
+                  sm: '0.5rem',
+                  md: '0.5rem',
+                  lg: '1rem',
+                  xl: '1rem',
+                  '2xl': '1rem',
                 }}
               >
                 Previews
@@ -271,32 +271,32 @@ const Hero = () => {
             '2xl': 'relative',
           }}
           top={{
-            base: '344px',
-            sm: '344px',
-            md: '344px',
+            base: '21.5rem',
+            sm: '21.5rem',
+            md: '21.5rem',
             lg: '0',
             xl: '0',
             '2xl': '0',
           }}
           width={{
-            base: '395px',
-            sm: '395px',
-            md: '395px',
-            lg: '1185px',
-            xl: '1003px',
-            '2xl': '993px',
+            base: '24.688rem',
+            sm: '24.688rem',
+            md: '24.688rem',
+            lg: '74.063rem',
+            xl: '62.688rem',
+            '2xl': '62.063rem',
           }}
         >
           <Image
             src="/assets/images/hero-image.png"
             alt="hero image"
             width={{
-              base: '320px',
-              sm: '320px',
-              md: '320px',
-              lg: '705.33px',
-              xl: '705.33px',
-              '2xl': '705.33px',
+              base: '20rem',
+              sm: '20rem',
+              md: '20rem',
+              lg: '44.083rem',
+              xl: '44.083rem',
+              '2xl': '44.083rem',
             }}
             position={{
               base: 'absolute',
@@ -307,9 +307,9 @@ const Hero = () => {
               '2xl': 'static',
             }}
             left={{
-              base: '32.69px',
-              sm: '32.69px',
-              md: '32.69px',
+              base: '2.043rem',
+              sm: '2.043rem',
+              md: '2.043rem',
               lg: '0',
               xl: '0',
               '2xl': '0',
@@ -320,17 +320,17 @@ const Hero = () => {
             src="/assets/lightbulb.png"
             alt="lightbulb image"
             width={{
-              base: '90px',
-              sm: '90px',
-              md: '90px',
-              lg: '160.72px',
-              xl: '160.72px',
-              '2xl': '160.72px',
+              base: '5.625rem',
+              sm: '5.625rem',
+              md: '5.625rem',
+              lg: '10.045rem',
+              xl: '10.045rem',
+              '2xl': '10.045rem',
             }}
             height={{
-              lg: '150px',
-              xl: '150px',
-              '2xl': '150px',
+              lg: '9.375rem',
+              xl: '9.375rem',
+              '2xl': '9.375rem',
             }}
             transform="rotate(-33.25deg)"
             position={{
@@ -342,20 +342,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '32px',
-              sm: '32px',
-              md: '32px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '2rem',
+              sm: '2rem',
+              md: '2rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             left={{
-              base: '20px',
-              sm: '20px',
-              md: '20px',
-              lg: '-25px',
-              xl: '-25px',
-              '2xl': '-25px',
+              base: '1.25rem',
+              sm: '1.25rem',
+              md: '1.25rem',
+              lg: '-1.563rem',
+              xl: '-1.563rem',
+              '2xl': '-1.563rem',
             }}
           />
 
@@ -364,20 +364,20 @@ const Hero = () => {
             alt="vscode image"
             borderRadius="4px"
             width={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             height={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             position={{
               base: 'absolute',
@@ -388,20 +388,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '40px',
-              sm: '40px',
-              md: '40px',
-              lg: '78.67px',
-              xl: '78.67px',
-              '2xl': '78.67px',
+              base: '2.5rem',
+              sm: '2.5rem',
+              md: '2.5rem',
+              lg: '4.917rem',
+              xl: '4.917rem',
+              '2xl': '4.917rem',
             }}
             left={{
-              base: '310px',
-              sm: '310px',
-              md: '310px',
-              lg: '419.29px',
-              xl: '419.29px',
-              '2xl': '419.29px',
+              base: '19.375rem',
+              sm: '19.375rem',
+              md: '19.375rem',
+              lg: '26.206rem',
+              xl: '26.206rem',
+              '2xl': '26.206rem',
             }}
           />
 
@@ -409,9 +409,9 @@ const Hero = () => {
             src="/assets/vectors/green-circle.svg"
             alt="green circle"
             width={{
-              lg: '20px',
-              xl: '20px',
-              '2xl': '20px',
+              lg: '1.25rem',
+              xl: '1.25rem',
+              '2xl': '1.25rem',
             }}
             position={{
               base: 'absolute',
@@ -422,20 +422,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '133px',
-              sm: '133px',
-              md: '133px',
-              lg: '237.47px',
-              xl: '237.47px',
-              '2xl': '237.47px',
+              base: '8.313rem',
+              sm: '8.313rem',
+              md: '8.313rem',
+              lg: '14.842rem',
+              xl: '14.842rem',
+              '2xl': '14.842rem',
             }}
             left={{
-              base: '58px',
-              sm: '58px',
-              md: '58px',
-              lg: '56.7px',
-              xl: '56.7px',
-              '2xl': '56.7px',
+              base: '3.625rem',
+              sm: '3.625rem',
+              md: '3.625rem',
+              lg: '3.544rem',
+              xl: '3.544rem',
+              '2xl': '3.544rem',
             }}
           />
 
@@ -443,9 +443,9 @@ const Hero = () => {
             src="/assets/vectors/gold-triangle.svg"
             alt="gold triangle"
             width={{
-              lg: '35px',
-              xl: '35px',
-              '2xl': '35px',
+              lg: '2.188rem',
+              xl: '2.188rem',
+              '2xl': '2.188rem',
             }}
             position={{
               base: 'absolute',
@@ -456,20 +456,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '150px',
-              sm: '150px',
-              md: '150px',
-              lg: '250.3px',
-              xl: '250.3px',
-              '2xl': '250.3px',
+              base: '9.375rem',
+              sm: '9.375rem',
+              md: '9.375rem',
+              lg: '15.644rem',
+              xl: '15.644rem',
+              '2xl': '15.644rem',
             }}
             left={{
-              base: '330px',
-              sm: '330px',
-              md: '330px',
-              lg: '472.14px',
-              xl: '472.14px',
-              '2xl': '472.14px',
+              base: '20.625rem',
+              sm: '20.625rem',
+              md: '20.625rem',
+              lg: '29.509rem',
+              xl: '29.509rem',
+              '2xl': '29.509rem',
             }}
           />
 
@@ -477,20 +477,20 @@ const Hero = () => {
             src="/assets/figma.svg"
             alt="figma image"
             width={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             height={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             position={{
               base: 'absolute',
@@ -501,20 +501,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '230px',
-              sm: '230px',
-              md: '230px',
-              lg: '380.57',
-              xl: '380.57',
-              '2xl': '380.57',
+              base: '14.375rem',
+              sm: '14.375rem',
+              md: '14.375rem',
+              lg: '23.786rem',
+              xl: '23.786rem',
+              '2xl': '23.786rem',
             }}
             left={{
-              base: '18px',
-              sm: '18px',
-              md: '18px',
-              lg: '-45px',
-              xl: '-45px',
-              '2xl': '-45px',
+              base: '1.125rem',
+              sm: '1.125rem',
+              md: '1.125rem',
+              lg: '-2.813rem',
+              xl: '-2.813rem',
+              '2xl': '-2.813rem',
             }}
           />
 
@@ -522,12 +522,12 @@ const Hero = () => {
             src="/assets/vectors/yellow-dot.svg"
             alt="yellow dot"
             width={{
-              base: '4px',
-              sm: '4px',
-              md: '4px',
-              lg: '9.36px',
-              xl: '9.36px',
-              '2xl': '9.36px',
+              base: '0.25rem',
+              sm: '0.25rem',
+              md: '0.25rem',
+              lg: '0.585rem',
+              xl: '0.585rem',
+              '2xl': '0.585rem',
             }}
             position={{
               base: 'absolute',
@@ -538,20 +538,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '354px',
-              sm: '354px',
-              md: '354px',
-              lg: '580.49px',
-              xl: '580.49px',
-              '2xl': '580.49px',
+              base: '22.125rem',
+              sm: '22.125rem',
+              md: '22.125rem',
+              lg: '36.281rem',
+              xl: '36.281rem',
+              '2xl': '36.281rem',
             }}
             left={{
-              base: '63px',
-              sm: '63px',
-              md: '63px',
-              lg: '50px',
-              xl: '50px',
-              '2xl': '50px',
+              base: '3.938rem',
+              sm: '3.938rem',
+              md: '3.938rem',
+              lg: '3.125rem',
+              xl: '3.125rem',
+              '2xl': '3.125rem',
             }}
           />
 
@@ -559,20 +559,20 @@ const Hero = () => {
             src="/assets/wordpress.svg"
             alt="wordpress logo"
             width={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             height={{
-              base: '48px',
-              sm: '48px',
-              md: '48px',
-              lg: '55px',
-              xl: '55px',
-              '2xl': '55px',
+              base: '3rem',
+              sm: '3rem',
+              md: '3rem',
+              lg: '3.438rem',
+              xl: '3.438rem',
+              '2xl': '3.438rem',
             }}
             position={{
               base: 'absolute',
@@ -583,20 +583,20 @@ const Hero = () => {
               '2xl': 'absolute',
             }}
             top={{
-              base: '345px',
-              sm: '345px',
-              md: '345px',
-              lg: '591.33px',
-              xl: '591.33px',
-              '2xl': '591.33px',
+              base: '21.563rem',
+              sm: '21.563rem',
+              md: '21.563rem',
+              lg: '36.958rem',
+              xl: '36.958rem',
+              '2xl': '36.958rem',
             }}
             left={{
-              base: '300px',
-              sm: '300px',
-              md: '300px',
-              lg: '461.87px',
-              xl: '461.87px',
-              '2xl': '461.87px',
+              base: '18.75rem',
+              sm: '18.75rem',
+              md: '18.75rem',
+              lg: '28.867rem',
+              xl: '28.867rem',
+              '2xl': '28.867rem',
             }}
           />
         </Flex>
@@ -614,9 +614,9 @@ const Hero = () => {
             src="/assets/vectors/green-circle.svg"
             alt="green circle"
             position="absolute"
-            left="30px"
-            top="40px"
-            width="12px"
+            left="1.875rem"
+            top="2.5rem"
+            width="0.75rem"
           />
 
           <Image
@@ -631,8 +631,8 @@ const Hero = () => {
             src="/assets/vectors/yellow-dot.svg"
             alt="yellow dot"
             position="absolute"
-            left={{ lg: '470px', xl: '470px', '2xl': '445px' }}
-            top="40px"
+            left={{ lg: '29.375rem', xl: '29.375rem', '2xl': '27.813rem' }}
+            top="2.5rem"
           />
           <Image
             display={{
@@ -647,29 +647,29 @@ const Hero = () => {
             alt="zigzag vector"
             position="absolute"
             left="0"
-            top="311px"
+            top="19.438rem"
           />
 
           <Image
             src="/assets/vectors/loopy-line.svg"
             alt="loopyline vector"
             position="absolute"
-            width={{ lg: '70px', xl: '70px', '2xl': '70px' }}
+            width={{ lg: '4.375rem', xl: '4.375rem', '2xl': '4.375rem' }}
             left={{
-              base: '310px',
-              sm: '310px',
-              md: '310px',
-              lg: '535px',
-              xl: '535px',
-              '2xl': '490px',
+              base: '19.375rem',
+              sm: '19.375rem',
+              md: '19.375rem',
+              lg: '33.438rem',
+              xl: '33.438rem',
+              '2xl': '30.625rem',
             }}
             top={{
-              base: '240px',
-              sm: '240px',
-              md: '240px',
-              lg: '380px',
-              xl: '380px',
-              '2xl': '380px',
+              base: '15rem',
+              sm: '15rem',
+              md: '15rem',
+              lg: '23.75rem',
+              xl: '23.75rem',
+              '2xl': '23.75rem',
             }}
             transform={{
               base: 'none',
@@ -696,7 +696,7 @@ const Hero = () => {
         alt="zigzag vector"
         position="absolute"
         left="0"
-        top="433px"
+        top="27.063rem"
       />
     </Flex>
   );
