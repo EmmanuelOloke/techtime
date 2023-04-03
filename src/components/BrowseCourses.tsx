@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Box, Button, Flex, Image, Text, VStack } from '@chakra-ui/react';
+import { Box, Button, Flex, Image, Text, VStack } from '@chakra-ui/react';
 import CourseCard from './CourseCard';
 import { PrimaryButtonType } from '@/types/primary-button';
 import PrimaryButton from './PrimaryButton';
@@ -272,6 +272,22 @@ const BrowseCourses = () => {
       >
         <PrimaryButton {...primaryButtonPropsMobile} />
       </Box>
+
+      <Image
+        src="/assets/vectors/blue-cross.svg"
+        alt="Blue Cross Vector"
+        width={{ base: '1rem', sm: '1rem', md: '1rem', lg: '', xl: '3.125rem', '2xl': '3.125rem' }}
+        position="absolute"
+        top={{ base: '-2rem', sm: '-2rem', md: '-2rem', lg: '0', xl: '8rem', '2xl': '8rem' }}
+        left={{
+          base: '0.5rem',
+          sm: '0.5rem',
+          md: '0.5rem',
+          lg: '0.5rem',
+          xl: '10.25rem',
+          '2xl': '27rem',
+        }}
+      />
     </VStack>
   );
 };
