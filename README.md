@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### Live Link
 
-Here is a live link to the [`Project`](https://techtime-seven.vercel.app/).
+Here is a live link to the [Project](https://techtime-seven.vercel.app/).
 
 Built using:
 
