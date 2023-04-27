@@ -1,4 +1,4 @@
-# Tech Time Design Implementation with Dockerization
+# Tech Time Design Implementation and Dockerization
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
