@@ -6,6 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Here is a live link to the [Project](https://techtime-seven.vercel.app/).
 
+Expecting more designs for a more complete project.
+
 Built using:
 
 | Name                    | Version | Website/Documentation                          |
